@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1000px;
+    background-color: #696969;
+    margin: 0 auto;
+    padding: 20px;
+}
+.image{
+    width: 100px;
+    height: 100px;
+    border: 3px solid pink;
+    border-radius: 50%;
+    float: left;
+}
+h1,h2,h3,h4,h5,h6,p{
+    color: white;
+}
+.bio{
+    height: 150px;
+    width: 250px;
+    float:left;
+    padding: 20px;
+}
+body{
+    background-color: #68bbaf;
+    font-family: 'Roboto', sans-serif;
+}
+.contract{
+    float: right;
+    height: 100px;
+    width: 250px;
+    padding: 20px;
+}
+.divclear{
+    clear:both;
+}
+.contract p a{
+    text-decoration: none;
+    color:white;
+}
+.contract p a:hover{
+    text-decoration: underline;
+    color:tomato;
+}
+hr{
+    border: 3px solid white;
+    border-bottom: none;
+    margin:10px auto;
+}
+.leftdiv{
+    width: 30%;
+    float: left;
+   
+
+}
+.rightdiv{
+    width: 70%;
+    float: right;
+
+}
+.commonhr{
+    border:1px solid white;
+    margin: 10px auto;
+    border-bottom: none;
+}
+.rightdiv h1{
+    color:tomato;
+}
+.div1{
+
+    float: left;
+    width: 45%;
+
+}
+.div2{
+    width: 45%;
+
+    float: right;
+}
+.footer{
+    background-color: black;
+  
+text-align: center;
+padding: 30px;
+    
+
+}
+.footer a{
+    text-decoration: none;
+    text-align: center;
+    margin:20px auto;
+    color:#ff3389;
+    padding: 20px;
+
+}
+.footer a:hover{
+    color:#853155;
+    text-decoration: underline;
+}
